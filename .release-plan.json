@@ -2,8 +2,8 @@
   "solution": {
     "ember-cli": {
       "impact": "minor",
-      "oldVersion": "6.11.0-alpha.0",
-      "newVersion": "6.11.0-alpha.1",
+      "oldVersion": "6.12.0-alpha.0",
+      "newVersion": "6.12.0-alpha.1",
       "tagName": "alpha",
       "constraints": [
         {
@@ -20,18 +20,6 @@
         },
         {
           "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @ember-tooling/blueprint-model"
-        },
-        {
-          "impact": "patch",
-          "reason": "Appears in changelog section :bug: Bug Fix"
-        },
-        {
-          "impact": "patch",
-          "reason": "Appears in changelog section :memo: Documentation"
-        },
-        {
-          "impact": "patch",
           "reason": "Appears in changelog section :house: Internal"
         }
       ],
@@ -39,17 +27,13 @@
     },
     "@ember-tooling/classic-build-addon-blueprint": {
       "impact": "minor",
-      "oldVersion": "6.11.0-alpha.0",
-      "newVersion": "6.11.0-alpha.1",
+      "oldVersion": "6.12.0-alpha.0",
+      "newVersion": "6.12.0-alpha.1",
       "tagName": "alpha",
       "constraints": [
         {
           "impact": "minor",
           "reason": "Appears in changelog section :rocket: Enhancement"
-        },
-        {
-          "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @ember-tooling/blueprint-model"
         },
         {
           "impact": "patch",
@@ -60,17 +44,13 @@
     },
     "@ember-tooling/classic-build-app-blueprint": {
       "impact": "minor",
-      "oldVersion": "6.11.0-alpha.0",
-      "newVersion": "6.11.0-alpha.1",
+      "oldVersion": "6.12.0-alpha.0",
+      "newVersion": "6.12.0-alpha.1",
       "tagName": "alpha",
       "constraints": [
         {
           "impact": "minor",
           "reason": "Appears in changelog section :rocket: Enhancement"
-        },
-        {
-          "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @ember-tooling/blueprint-model"
         },
         {
           "impact": "patch",
@@ -83,18 +63,8 @@
       "oldVersion": "0.3.0"
     },
     "@ember-tooling/blueprint-model": {
-      "impact": "minor",
-      "oldVersion": "0.5.0",
-      "newVersion": "0.6.0",
-      "tagName": "latest",
-      "constraints": [
-        {
-          "impact": "minor",
-          "reason": "Appears in changelog section :rocket: Enhancement"
-        }
-      ],
-      "pkgJSONPath": "./packages/blueprint-model/package.json"
+      "oldVersion": "0.6.0"
     }
   },
-  "description": "## Release (2026-01-08)\n\n* ember-cli 6.11.0-alpha.1 (minor)\n* @ember-tooling/classic-build-addon-blueprint 6.11.0-alpha.1 (minor)\n* @ember-tooling/classic-build-app-blueprint 6.11.0-alpha.1 (minor)\n* @ember-tooling/blueprint-model 0.6.0 (minor)\n\n#### :rocket: Enhancement\n* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`\n  * [#10919](https://github.com/ember-cli/ember-cli/pull/10919) Prepare 6.11-alpha ([@mansona](https://github.com/mansona))\n  * [#10917](https://github.com/ember-cli/ember-cli/pull/10917) Prepare 6.10-beta ([@mansona](https://github.com/mansona))\n* `ember-cli`\n  * [#10906](https://github.com/ember-cli/ember-cli/pull/10906) Even more dependency updates ([@bertdeblock](https://github.com/bertdeblock))\n  * [#10892](https://github.com/ember-cli/ember-cli/pull/10892) More dependency updates ([@bertdeblock](https://github.com/bertdeblock))\n* `ember-cli`, `@ember-tooling/blueprint-model`\n  * [#10890](https://github.com/ember-cli/ember-cli/pull/10890) Update various dependencies ([@bertdeblock](https://github.com/bertdeblock))\n* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`, `@ember-tooling/blueprint-model`\n  * [#10887](https://github.com/ember-cli/ember-cli/pull/10887) Update `chalk` dependency to latest ([@bertdeblock](https://github.com/bertdeblock))\n\n#### :bug: Bug Fix\n* `ember-cli`\n  * [#10888](https://github.com/ember-cli/ember-cli/pull/10888) Upgrade broccoli ([@kategengler](https://github.com/kategengler))\n  * [#10886](https://github.com/ember-cli/ember-cli/pull/10886) Update required Node version to v20.19.0 ([@bertdeblock](https://github.com/bertdeblock))\n  * [#10860](https://github.com/ember-cli/ember-cli/pull/10860) [BUGFIX release]: Enter the WatchDetector branch of the build command when EMBROIDER_PREBUILD is present ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### :memo: Documentation\n* `ember-cli`\n  * [#10874](https://github.com/ember-cli/ember-cli/pull/10874) Update RELEASE.md ([@mansona](https://github.com/mansona))\n\n#### :house: Internal\n* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`\n  * [#10883](https://github.com/ember-cli/ember-cli/pull/10883) Prepare Beta Release ([@mansona](https://github.com/mansona))\n* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`\n  * [#10891](https://github.com/ember-cli/ember-cli/pull/10891) Update `prettier` + setup ([@bertdeblock](https://github.com/bertdeblock))\n\n#### Committers: 4\n- Bert De Block ([@bertdeblock](https://github.com/bertdeblock))\n- Chris Manson ([@mansona](https://github.com/mansona))\n- Katie Gengler ([@kategengler](https://github.com/kategengler))\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
+  "description": "## Release (2026-01-26)\n\n* ember-cli 6.12.0-alpha.1 (minor)\n* @ember-tooling/classic-build-addon-blueprint 6.12.0-alpha.1 (minor)\n* @ember-tooling/classic-build-app-blueprint 6.12.0-alpha.1 (minor)\n\n#### :rocket: Enhancement\n* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`\n  * [#10923](https://github.com/ember-cli/ember-cli/pull/10923) Promote Beta and update all dependencies for 6.10 release ([@mansona](https://github.com/mansona))\n\n#### :house: Internal\n* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`\n  * [#10930](https://github.com/ember-cli/ember-cli/pull/10930) Prepare 6.12-alpha ([@mansona](https://github.com/mansona))\n  * [#10926](https://github.com/ember-cli/ember-cli/pull/10926) Prepare Beta Release ([@mansona](https://github.com/mansona))\n  * [#10929](https://github.com/ember-cli/ember-cli/pull/10929) Prepare 6.11-beta ([@mansona](https://github.com/mansona))\n  * [#10918](https://github.com/ember-cli/ember-cli/pull/10918) Prepare Stable Release ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
 }
