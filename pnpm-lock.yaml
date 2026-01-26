@@ -21,8 +21,8 @@ importers:
         specifier: workspace:*
         version: link:packages/app-blueprint
       '@ember/app-blueprint':
-        specifier: ~6.11.0-alpha.1
-        version: 6.11.0-alpha.1
+        specifier: ~6.12.0-alpha.1
+        version: 6.12.0-alpha.1
       '@pnpm/find-workspace-dir':
         specifier: ^1000.1.3
         version: 1000.1.3
@@ -556,8 +556,8 @@ packages:
     engines: {node: '>=0.1.95'}
     hasBin: true
 
-  '@ember/app-blueprint@6.11.0-alpha.1':
-    resolution: {integrity: sha512-5X3GYm8TrMOnSiDnbA+lOQsFy1lvP0rr/AYkVp1nEAn3RjTBRqP5P9ra2H2/YjDAnh+WfdoXazsD+Mzdwk4Hzw==}
+  '@ember/app-blueprint@6.12.0-alpha.1':
+    resolution: {integrity: sha512-dn/Ht8X7PMxCi571D/oB/576kZgDt40/hD3jIb1Tx0wM/ZBoh/9wiSVmP44CDM1IqsKMCjE1TGmKt7ph+oZkng==}
 
   '@eslint-community/eslint-utils@4.4.1':
     resolution: {integrity: sha512-s3O3waFUrMV8P/XaF/+ZTp1X9XBZW1a4B97ZnjQF2KYWaFD2A8KyFBsrsfSjEmjn3RGWAIuvlneuZm3CUK3jbA==}
@@ -5727,7 +5727,7 @@ snapshots:
       exec-sh: 0.3.6
       minimist: 1.2.8
 
-  '@ember/app-blueprint@6.11.0-alpha.1':
+  '@ember/app-blueprint@6.12.0-alpha.1':
     dependencies:
       chalk: 4.1.2
       ejs: 3.1.10
