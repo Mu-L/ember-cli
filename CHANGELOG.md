@@ -1,5 +1,22 @@
 # ember-cli Changelog
 
+## Release (2026-02-05)
+
+* ember-cli 6.12.0-alpha.2 (patch)
+* @ember-tooling/classic-build-addon-blueprint 6.12.0-alpha.2 (patch)
+* @ember-tooling/classic-build-app-blueprint 6.12.0-alpha.2 (patch)
+* @ember-tooling/blueprint-model 0.6.1 (patch)
+
+#### :bug: Bug Fix
+* `ember-cli`, `@ember-tooling/blueprint-model`
+  * [#10941](https://github.com/ember-cli/ember-cli/pull/10941) Downgrade isbinaryfile ([@mansona](https://github.com/mansona))
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
+  * [#10932](https://github.com/ember-cli/ember-cli/pull/10932) Remove tracked-built-ins (it comes built in with ember-source 6.8+) ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### Committers: 2
+- Chris Manson ([@mansona](https://github.com/mansona))
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
 ## Release (2026-01-26)
 
 * ember-cli 6.12.0-alpha.1 (minor)
