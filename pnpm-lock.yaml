@@ -179,9 +179,6 @@ importers:
       is-language-code:
         specifier: ^5.1.0
         version: 5.1.0
-      isbinaryfile:
-        specifier: ^5.0.4
-        version: 5.0.4
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
