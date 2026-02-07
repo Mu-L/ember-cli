@@ -1,5 +1,16 @@
 # ember-cli Changelog
 
+## Release (2026-02-07)
+
+* ember-cli 6.12.0-alpha.3 (patch)
+
+#### :house: Internal
+* `ember-cli`
+  * [#10945](https://github.com/ember-cli/ember-cli/pull/10945) update release-plan for OIDC ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
 ## Release (2026-02-05)
 
 * ember-cli 6.12.0-alpha.2 (patch)

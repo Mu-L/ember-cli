@@ -2,79 +2,29 @@
   "solution": {
     "ember-cli": {
       "impact": "patch",
-      "oldVersion": "6.12.0-alpha.1",
-      "newVersion": "6.12.0-alpha.2",
+      "oldVersion": "6.12.0-alpha.2",
+      "newVersion": "6.12.0-alpha.3",
       "tagName": "alpha",
       "constraints": [
         {
           "impact": "patch",
-          "reason": "Appears in changelog section :bug: Bug Fix"
-        },
-        {
-          "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @ember-tooling/blueprint-model"
-        },
-        {
-          "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @ember-tooling/classic-build-addon-blueprint"
-        },
-        {
-          "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @ember-tooling/classic-build-app-blueprint"
+          "reason": "Appears in changelog section :house: Internal"
         }
       ],
       "pkgJSONPath": "./package.json"
     },
     "@ember-tooling/classic-build-addon-blueprint": {
-      "impact": "patch",
-      "oldVersion": "6.12.0-alpha.1",
-      "newVersion": "6.12.0-alpha.2",
-      "tagName": "alpha",
-      "constraints": [
-        {
-          "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @ember-tooling/blueprint-model"
-        },
-        {
-          "impact": "patch",
-          "reason": "Appears in changelog section :bug: Bug Fix"
-        }
-      ],
-      "pkgJSONPath": "./packages/addon-blueprint/package.json"
+      "oldVersion": "6.12.0-alpha.2"
     },
     "@ember-tooling/classic-build-app-blueprint": {
-      "impact": "patch",
-      "oldVersion": "6.12.0-alpha.1",
-      "newVersion": "6.12.0-alpha.2",
-      "tagName": "alpha",
-      "constraints": [
-        {
-          "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @ember-tooling/blueprint-model"
-        },
-        {
-          "impact": "patch",
-          "reason": "Appears in changelog section :bug: Bug Fix"
-        }
-      ],
-      "pkgJSONPath": "./packages/app-blueprint/package.json"
+      "oldVersion": "6.12.0-alpha.2"
     },
     "@ember-tooling/blueprint-blueprint": {
       "oldVersion": "0.3.0"
     },
     "@ember-tooling/blueprint-model": {
-      "impact": "patch",
-      "oldVersion": "0.6.0",
-      "newVersion": "0.6.1",
-      "tagName": "latest",
-      "constraints": [
-        {
-          "impact": "patch",
-          "reason": "Appears in changelog section :bug: Bug Fix"
-        }
-      ],
-      "pkgJSONPath": "./packages/blueprint-model/package.json"
+      "oldVersion": "0.6.1"
     }
   },
-  "description": "## Release (2026-02-05)\n\n* ember-cli 6.12.0-alpha.2 (patch)\n* @ember-tooling/classic-build-addon-blueprint 6.12.0-alpha.2 (patch)\n* @ember-tooling/classic-build-app-blueprint 6.12.0-alpha.2 (patch)\n* @ember-tooling/blueprint-model 0.6.1 (patch)\n\n#### :bug: Bug Fix\n* `ember-cli`, `@ember-tooling/blueprint-model`\n  * [#10941](https://github.com/ember-cli/ember-cli/pull/10941) Downgrade isbinaryfile ([@mansona](https://github.com/mansona))\n* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`, `ember-cli`\n  * [#10932](https://github.com/ember-cli/ember-cli/pull/10932) Remove tracked-built-ins (it comes built in with ember-source 6.8+) ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 2\n- Chris Manson ([@mansona](https://github.com/mansona))\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
+  "description": "## Release (2026-02-07)\n\n* ember-cli 6.12.0-alpha.3 (patch)\n\n#### :house: Internal\n* `ember-cli`\n  * [#10945](https://github.com/ember-cli/ember-cli/pull/10945) update release-plan for OIDC ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
 }
