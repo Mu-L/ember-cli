@@ -1,7 +1,7 @@
-# For every push to the primary branch with .release-plan.json modified,
-# runs release-plan.
+# Every push to any of the primary branches (master, beta, release) with .release-plan.json modified,
+# runs release-plan publish.
 
-name: Publish Stable (Alpha)
+name: Publish
 
 on:
   workflow_dispatch:
@@ -9,6 +9,8 @@ on:
     branches:
       - main
       - master
+      - release
+      - beta
     paths:
       - ".release-plan.json"
 
