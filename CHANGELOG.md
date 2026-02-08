@@ -2,6 +2,20 @@
 
 ## Release (2026-02-07)
 
+* ember-cli 6.12.0-alpha.4 (patch)
+* @ember-tooling/classic-build-addon-blueprint 6.12.0-alpha.3 (patch)
+* @ember-tooling/classic-build-app-blueprint 6.12.0-alpha.3 (patch)
+* @ember-tooling/blueprint-model 0.6.2 (patch)
+
+#### :house: Internal
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`, `@ember-tooling/blueprint-model`, `ember-cli`
+  * [#10947](https://github.com/ember-cli/ember-cli/pull/10947) bump in-range versions ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
+## Release (2026-02-07)
+
 * ember-cli 6.12.0-alpha.3 (patch)
 
 #### :house: Internal
