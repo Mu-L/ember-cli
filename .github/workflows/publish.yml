@@ -41,7 +41,9 @@ jobs:
         # pass --github-prerelease when we are only branch other than release
         run: |
           if [ ${{ github.ref }} = "refs/heads/release" ]; then
-            pnpm release-plan publish
+            pnpm release-plan publish --publish-branch=release
+          elif [ ${{ github.ref }} = "refs/heads/beta" ]; then
+            pnpm release-plan publish --github-prerelease --publish-branch=beta
           else
             pnpm release-plan publish --github-prerelease
           fi
