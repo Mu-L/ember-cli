@@ -1,7 +1,7 @@
-# For every push to the primary branch with .release-plan.json modified,
-# runs release-plan.
+# Every push to any of the primary branches (master, beta, release) with .release-plan.json modified,
+# runs release-plan publish.
 
-name: Publish Stable (Alpha)
+name: Publish
 
 on:
   workflow_dispatch:
@@ -9,6 +9,8 @@ on:
     branches:
       - main
       - master
+      - release
+      - beta
     paths:
       - ".release-plan.json"
 
@@ -39,7 +41,9 @@ jobs:
         # pass --github-prerelease when we are only branch other than release
         run: |
           if [ ${{ github.ref }} = "refs/heads/release" ]; then
-            pnpm release-plan publish
+            pnpm release-plan publish --publish-branch=release
+          elif [ ${{ github.ref }} = "refs/heads/beta" ]; then
+            pnpm release-plan publish --github-prerelease --publish-branch=beta
           else
             pnpm release-plan publish --github-prerelease
           fi
