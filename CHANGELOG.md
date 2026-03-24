@@ -1,5 +1,66 @@
 # ember-cli Changelog
 
+## Release (2026-02-09)
+
+* ember-cli 6.12.0-alpha.5 (patch)
+
+#### :bug: Bug Fix
+* `ember-cli`
+  * [#10949](https://github.com/ember-cli/ember-cli/pull/10949) [backport release] remove unused isbinaryfile from ember-cli package ([@mansona](https://github.com/mansona))
+  * [#10940](https://github.com/ember-cli/ember-cli/pull/10940) [bugfix release] remove fixturify-project from dependencies ([@mansona](https://github.com/mansona))
+
+#### :house: Internal
+* `ember-cli`
+  * [#10955](https://github.com/ember-cli/ember-cli/pull/10955) Merge beta into master ([@mansona](https://github.com/mansona))
+  * [#10952](https://github.com/ember-cli/ember-cli/pull/10952) add correct --publish-branch to pnpm publish ([@mansona](https://github.com/mansona))
+  * [#10951](https://github.com/ember-cli/ember-cli/pull/10951) Fix PR name for stable release-plan pull request ([@mansona](https://github.com/mansona))
+  * [#10950](https://github.com/ember-cli/ember-cli/pull/10950) [backport release] update release-plan for OIDC ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
+## Release (2026-02-07)
+
+* ember-cli 6.12.0-alpha.4 (patch)
+* @ember-tooling/classic-build-addon-blueprint 6.12.0-alpha.3 (patch)
+* @ember-tooling/classic-build-app-blueprint 6.12.0-alpha.3 (patch)
+* @ember-tooling/blueprint-model 0.6.2 (patch)
+
+#### :house: Internal
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`, `@ember-tooling/blueprint-model`, `ember-cli`
+  * [#10947](https://github.com/ember-cli/ember-cli/pull/10947) bump in-range versions ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
+## Release (2026-02-07)
+
+* ember-cli 6.12.0-alpha.3 (patch)
+
+#### :house: Internal
+* `ember-cli`
+  * [#10945](https://github.com/ember-cli/ember-cli/pull/10945) update release-plan for OIDC ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
+## Release (2026-02-05)
+
+* ember-cli 6.12.0-alpha.2 (patch)
+* @ember-tooling/classic-build-addon-blueprint 6.12.0-alpha.2 (patch)
+* @ember-tooling/classic-build-app-blueprint 6.12.0-alpha.2 (patch)
+* @ember-tooling/blueprint-model 0.6.1 (patch)
+
+#### :bug: Bug Fix
+* `ember-cli`, `@ember-tooling/blueprint-model`
+  * [#10941](https://github.com/ember-cli/ember-cli/pull/10941) Downgrade isbinaryfile ([@mansona](https://github.com/mansona))
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
+  * [#10932](https://github.com/ember-cli/ember-cli/pull/10932) Remove tracked-built-ins (it comes built in with ember-source 6.8+) ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### Committers: 2
+- Chris Manson ([@mansona](https://github.com/mansona))
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
 ## Release (2026-01-26)
 
 * ember-cli 6.12.0-alpha.1 (minor)

@@ -6,7 +6,7 @@ const { default: chalk } = require('chalk');
 const EditFileDiff = require('./edit-file-diff');
 const EOL = require('os').EOL;
 const rxEOL = new RegExp(EOL, 'g');
-const { isBinaryFileSync } = require('isbinaryfile');
+const isBinaryFile = require('isbinaryfile').isBinaryFileSync;
 const hash = require('promise.hash.helper');
 const canEdit = require('./open-editor').canEdit;
 const processTemplate = require('./process-template');
@@ -58,7 +58,7 @@ class FileInfo {
       /* ignore */
     }
 
-    let canDiff = !isBinaryFileSync(this.inputPath) && (!outputPathIsFile || !isBinaryFileSync(this.outputPath));
+    let canDiff = !isBinaryFile(this.inputPath) && (!outputPathIsFile || !isBinaryFile(this.outputPath));
 
     if (canDiff) {
       promptOptions.choices.push({ key: 'd', name: 'Diff', value: 'diff' });
@@ -106,7 +106,7 @@ class FileInfo {
 
     return readFile(path).then((content) =>
       lstat(path).then((fileStat) => {
-        if (isBinaryFileSync(content, fileStat.size)) {
+        if (isBinaryFile(content, fileStat.size)) {
           return content;
         } else {
           try {
