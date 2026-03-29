@@ -2,6 +2,19 @@
 
 ## Release (2026-03-29)
 
+* ember-cli 6.11.2 (patch)
+* @ember-tooling/classic-build-addon-blueprint 6.11.2 (patch)
+* @ember-tooling/classic-build-app-blueprint 6.11.2 (patch)
+
+#### :bug: Bug Fix
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
+  * [#10977](https://github.com/ember-cli/ember-cli/pull/10977) Backport: Enable use-ember-modules in blueprint optional-features.json ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+
+#### Committers: 1
+- NullVoxPopuli's reduced-access machine account for AI usage ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+
+## Release (2026-03-29)
+
 * ember-cli 6.11.1 (patch)
 * @ember-tooling/classic-build-addon-blueprint 6.11.1 (patch)
 * @ember-tooling/classic-build-app-blueprint 6.11.1 (patch)
