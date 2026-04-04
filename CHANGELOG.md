@@ -1,8 +1,55 @@
 # ember-cli Changelog
 
+## Release (2026-03-29)
+
+* ember-cli 6.11.2 (patch)
+* @ember-tooling/classic-build-addon-blueprint 6.11.2 (patch)
+* @ember-tooling/classic-build-app-blueprint 6.11.2 (patch)
+
+#### :bug: Bug Fix
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
+  * [#10977](https://github.com/ember-cli/ember-cli/pull/10977) Backport: Enable use-ember-modules in blueprint optional-features.json ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+
+#### Committers: 1
+- NullVoxPopuli's reduced-access machine account for AI usage ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+
+## Release (2026-03-29)
+
+* ember-cli 6.11.1 (patch)
+* @ember-tooling/classic-build-addon-blueprint 6.11.1 (patch)
+* @ember-tooling/classic-build-app-blueprint 6.11.1 (patch)
+
+#### :bug: Bug Fix
+* `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
+  * [#10975](https://github.com/ember-cli/ember-cli/pull/10975) Backport: Update ember-cli-htmlbars to ^7.0.0 in app-blueprint ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
+  * [#10974](https://github.com/ember-cli/ember-cli/pull/10974) Backport: Remove tracked-built-ins (it comes built in with ember-source 6.8+) ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+* `ember-cli`
+  * [#10972](https://github.com/ember-cli/ember-cli/pull/10972) Support ember-source (ESM) -- without addon vendor paths ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### Committers: 2
+- NullVoxPopuli's reduced-access machine account for AI usage ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
+## Release (2026-02-17)
+
+* ember-cli 6.11.0 (minor)
+* @ember-tooling/classic-build-addon-blueprint 6.11.0 (minor)
+* @ember-tooling/classic-build-app-blueprint 6.11.0 (minor)
+
+#### :rocket: Enhancement
+* `ember-cli`, `@ember-tooling/classic-build-app-blueprint`
+  * [#10960](https://github.com/ember-cli/ember-cli/pull/10960) Promote Beta and update all dependencies for 6.11 release ([@mansona](https://github.com/mansona))
+* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
+  * [#10929](https://github.com/ember-cli/ember-cli/pull/10929) Prepare 6.11-beta ([@mansona](https://github.com/mansona))
+  * [#10919](https://github.com/ember-cli/ember-cli/pull/10919) Prepare 6.11-alpha ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
 ## Release (2026-02-09)
 
-* ember-cli 6.11.0-beta.2 (patch)
+* ember-cli 6.10.2 (patch)
 
 #### :bug: Bug Fix
 * `ember-cli`
@@ -11,7 +58,6 @@
 
 #### :house: Internal
 * `ember-cli`
-  * [#10954](https://github.com/ember-cli/ember-cli/pull/10954) Merge release into beta ([@mansona](https://github.com/mansona))
   * [#10952](https://github.com/ember-cli/ember-cli/pull/10952) add correct --publish-branch to pnpm publish ([@mansona](https://github.com/mansona))
   * [#10951](https://github.com/ember-cli/ember-cli/pull/10951) Fix PR name for stable release-plan pull request ([@mansona](https://github.com/mansona))
   * [#10950](https://github.com/ember-cli/ember-cli/pull/10950) [backport release] update release-plan for OIDC ([@mansona](https://github.com/mansona))
@@ -19,22 +65,19 @@
 #### Committers: 1
 - Chris Manson ([@mansona](https://github.com/mansona))
 
-## Release (2026-01-25)
+## Release (2026-02-08)
 
-* ember-cli 6.11.0-beta.1 (minor)
-* @ember-tooling/classic-build-addon-blueprint 6.11.0-beta.1 (minor)
-* @ember-tooling/classic-build-app-blueprint 6.11.0-beta.1 (minor)
+* ember-cli 6.10.1 (patch)
 
-#### :rocket: Enhancement
-* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
-  * [#10923](https://github.com/ember-cli/ember-cli/pull/10923) Promote Beta and update all dependencies for 6.10 release ([@mansona](https://github.com/mansona))
-  * [#10919](https://github.com/ember-cli/ember-cli/pull/10919) Prepare 6.11-alpha ([@mansona](https://github.com/mansona))
+#### :bug: Bug Fix
+* `ember-cli`
+  * [#10949](https://github.com/ember-cli/ember-cli/pull/10949) [backport release] remove unused isbinaryfile from ember-cli package ([@mansona](https://github.com/mansona))
+  * [#10940](https://github.com/ember-cli/ember-cli/pull/10940) [bugfix release] remove fixturify-project from dependencies ([@mansona](https://github.com/mansona))
 
 #### :house: Internal
-* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
-  * [#10929](https://github.com/ember-cli/ember-cli/pull/10929) Prepare 6.11-beta ([@mansona](https://github.com/mansona))
-  * [#10918](https://github.com/ember-cli/ember-cli/pull/10918) Prepare Stable Release ([@mansona](https://github.com/mansona))
-  * [#10884](https://github.com/ember-cli/ember-cli/pull/10884) Prepare Alpha Release ([@mansona](https://github.com/mansona))
+* `ember-cli`
+  * [#10951](https://github.com/ember-cli/ember-cli/pull/10951) Fix PR name for stable release-plan pull request ([@mansona](https://github.com/mansona))
+  * [#10950](https://github.com/ember-cli/ember-cli/pull/10950) [backport release] update release-plan for OIDC ([@mansona](https://github.com/mansona))
 
 #### Committers: 1
 - Chris Manson ([@mansona](https://github.com/mansona))
