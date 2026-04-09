@@ -1,5 +1,43 @@
 # ember-cli Changelog
 
+## Release (2026-04-09)
+
+* ember-cli 6.12.0 (minor)
+* @ember-tooling/classic-build-addon-blueprint 6.12.0 (minor)
+* @ember-tooling/classic-build-app-blueprint 6.12.0 (minor)
+
+#### :rocket: Enhancement
+* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
+  * [#10993](https://github.com/ember-cli/ember-cli/pull/10993) Promote Beta and update all dependencies for 6.12 release ([@mansona](https://github.com/mansona))
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
+  * [#10939](https://github.com/ember-cli/ember-cli/pull/10939) Add warpDrive support to app-blueprint ([@Copilot](https://github.com/apps/copilot-swe-agent))
+* `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
+  * [#10969](https://github.com/ember-cli/ember-cli/pull/10969) Update ember-cli-htmlbars to ^7.0.0 in app-blueprint ([@Copilot](https://github.com/apps/copilot-swe-agent))
+
+#### :bug: Bug Fix
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
+  * [#10976](https://github.com/ember-cli/ember-cli/pull/10976) Enable `use-ember-modules` in blueprint optional-features.json ([@Copilot](https://github.com/apps/copilot-swe-agent))
+* `ember-cli`
+  * [#10941](https://github.com/ember-cli/ember-cli/pull/10941) Downgrade isbinaryfile ([@mansona](https://github.com/mansona))
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
+  * [#10932](https://github.com/ember-cli/ember-cli/pull/10932) Remove tracked-built-ins (it comes built in with ember-source 6.8+) ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### :house: Internal
+* `ember-cli`
+  * [#10990](https://github.com/ember-cli/ember-cli/pull/10990) bump node on publish.yml and stop updating npm ([@mansona](https://github.com/mansona))
+  * [#10982](https://github.com/ember-cli/ember-cli/pull/10982) Update publish.yml to use PAT so that output repos workflow will run ([@kategengler](https://github.com/kategengler))
+  * [#10967](https://github.com/ember-cli/ember-cli/pull/10967) Replace `temp` package with Node.js built-in `fs.mkdtemp` ([@Copilot](https://github.com/apps/copilot-swe-agent))
+  * [#10931](https://github.com/ember-cli/ember-cli/pull/10931) update Release.md ([@mansona](https://github.com/mansona))
+  * [#10945](https://github.com/ember-cli/ember-cli/pull/10945) update release-plan for OIDC ([@mansona](https://github.com/mansona))
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
+  * [#10947](https://github.com/ember-cli/ember-cli/pull/10947) bump in-range versions ([@mansona](https://github.com/mansona))
+
+#### Committers: 4
+- Chris Manson ([@mansona](https://github.com/mansona))
+- Copilot [Bot] ([@copilot-swe-agent](https://github.com/apps/copilot-swe-agent))
+- Katie Gengler ([@kategengler](https://github.com/kategengler))
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
 ## Release (2026-03-29)
 
 * ember-cli 6.11.2 (patch)
