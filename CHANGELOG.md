@@ -1,5 +1,44 @@
 # ember-cli Changelog
 
+## Release (2026-04-20)
+
+* ember-cli 7.0.0-alpha.1 (minor)
+* @ember-tooling/classic-build-addon-blueprint 7.0.0-alpha.1 (minor)
+* @ember-tooling/classic-build-app-blueprint 7.0.0-alpha.1 (minor)
+
+#### :rocket: Enhancement
+* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
+  * [#10996](https://github.com/ember-cli/ember-cli/pull/10996) Prepare 7.0 Alpha ([@mansona](https://github.com/mansona))
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
+  * [#10939](https://github.com/ember-cli/ember-cli/pull/10939) Add warpDrive support to app-blueprint ([@Copilot](https://github.com/apps/copilot-swe-agent))
+* `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
+  * [#10969](https://github.com/ember-cli/ember-cli/pull/10969) Update ember-cli-htmlbars to ^7.0.0 in app-blueprint ([@Copilot](https://github.com/apps/copilot-swe-agent))
+
+#### :bug: Bug Fix
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
+  * [#10977](https://github.com/ember-cli/ember-cli/pull/10977) Backport: Enable use-ember-modules in blueprint optional-features.json ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+  * [#10976](https://github.com/ember-cli/ember-cli/pull/10976) Enable `use-ember-modules` in blueprint optional-features.json ([@Copilot](https://github.com/apps/copilot-swe-agent))
+* `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
+  * [#10975](https://github.com/ember-cli/ember-cli/pull/10975) Backport: Update ember-cli-htmlbars to ^7.0.0 in app-blueprint ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
+  * [#10974](https://github.com/ember-cli/ember-cli/pull/10974) Backport: Remove tracked-built-ins (it comes built in with ember-source 6.8+) ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+* `ember-cli`
+  * [#10972](https://github.com/ember-cli/ember-cli/pull/10972) Support ember-source (ESM) -- without addon vendor paths ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### :house: Internal
+* `ember-cli`
+  * [#10990](https://github.com/ember-cli/ember-cli/pull/10990) bump node on publish.yml and stop updating npm ([@mansona](https://github.com/mansona))
+  * [#10982](https://github.com/ember-cli/ember-cli/pull/10982) Update publish.yml to use PAT so that output repos workflow will run ([@kategengler](https://github.com/kategengler))
+  * [#10967](https://github.com/ember-cli/ember-cli/pull/10967) Replace `temp` package with Node.js built-in `fs.mkdtemp` ([@Copilot](https://github.com/apps/copilot-swe-agent))
+  * [#10931](https://github.com/ember-cli/ember-cli/pull/10931) update Release.md ([@mansona](https://github.com/mansona))
+
+#### Committers: 5
+- @NullVoxPopuli's reduced-access machine account for AI usage ([@NullVoxPopuli-ai-agent](https://github.com/NullVoxPopuli-ai-agent))
+- Chris Manson ([@mansona](https://github.com/mansona))
+- Copilot [Bot] ([@copilot-swe-agent](https://github.com/apps/copilot-swe-agent))
+- Katie Gengler ([@kategengler](https://github.com/kategengler))
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
 ## Release (2026-02-09)
 
 * ember-cli 6.12.0-alpha.5 (patch)
