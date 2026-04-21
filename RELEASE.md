@@ -96,7 +96,9 @@ You can use [this saved search](https://github.com/ember-cli/ember-cli/pulls?q=i
 - Update blueprint dependencies to beta
 
   ```
-  node ./dev/update-blueprint-dependencies.js --ember-source=beta --ember-data=<whatever version was in the alpha>
+  pnpm dlx update-blueprint-deps --filter 'ember-source$' --tag beta ./packages/*-blueprint/**/*ackage.json ./tests/fixtures/**/package.json
+  pnpm dlx update-blueprint-deps --filter '@ember-tooling/.*' --tag latest ./packages/*-blueprint/**/*ackage.json
+  pnpm dlx update-blueprint-deps --filter '.*' ./packages/*-blueprint/**/*ackage.json ./tests/fixtures/*/package.json ./tests/fixtures/*/*/package.json
   ```
 
 - run `pnpm lint:fix`
