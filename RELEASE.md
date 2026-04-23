@@ -138,7 +138,8 @@ You can use [this saved search](https://github.com/ember-cli/ember-cli/pulls?q=i
 - Update blueprint dependencies to alpha
 
   ```
-  node ./dev/update-blueprint-dependencies.js --ember-source=alpha --ember-data=<whatever version is in the package.json>
+  pnpm dlx update-blueprint-deps --filter 'ember-source$' --tag alpha ./packages/*-blueprint/**/*ackage.json ./tests/fixtures/**/package.json
+  pnpm dlx update-blueprint-deps --filter '.*' ./packages/*-blueprint/**/*ackage.json ./tests/fixtures/*/package.json ./tests/fixtures/*/*/package.json
   ```
 
 - note: ember-data (aka warp-drive) should only ever be updated on master as a separate PR. It is no longer part of the release process
