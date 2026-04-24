@@ -21,8 +21,8 @@ importers:
         specifier: workspace:*
         version: link:packages/app-blueprint
       '@ember/app-blueprint':
-        specifier: ~7.0.0-alpha.1
-        version: 7.0.0-beta.1
+        specifier: ~7.1.0-alpha.1
+        version: 7.1.0-alpha.1
       '@pnpm/find-workspace-dir':
         specifier: ^1000.1.3
         version: 1000.1.3
@@ -415,7 +415,7 @@ importers:
         version: 5.0.7
       lodash:
         specifier: ^4.17.23
-        version: 4.17.23
+        version: 4.18.1
       promise.hash.helper:
         specifier: ^1.0.8
         version: 1.0.8
@@ -550,8 +550,8 @@ packages:
     engines: {node: '>=0.1.95'}
     hasBin: true
 
-  '@ember/app-blueprint@7.0.0-beta.1':
-    resolution: {integrity: sha512-yEDqcRLCOhLgl3OqeLhP6Q6xbILqZ9m1NNjMKc20FRfeAYbSgMLjDzayDDquVIgdHZqdi/l0qd81LYga0yLl6Q==}
+  '@ember/app-blueprint@7.1.0-alpha.1':
+    resolution: {integrity: sha512-QHRXDx8PrWrCSpY/ahzIBPyT0NEr+JT6sW0hWGIEU6M9GFPjUdGAr5hM+ZYgXylGk1F09kER/OCktDOg1o7w0w==}
 
   '@eslint-community/eslint-utils@4.4.1':
     resolution: {integrity: sha512-s3O3waFUrMV8P/XaF/+ZTp1X9XBZW1a4B97ZnjQF2KYWaFD2A8KyFBsrsfSjEmjn3RGWAIuvlneuZm3CUK3jbA==}
@@ -3565,9 +3565,6 @@ packages:
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
 
-  lodash@4.17.23:
-    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
-
   lodash@4.18.1:
     resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
 
@@ -5702,12 +5699,12 @@ snapshots:
       exec-sh: 0.3.6
       minimist: 1.2.8
 
-  '@ember/app-blueprint@7.0.0-beta.1':
+  '@ember/app-blueprint@7.1.0-alpha.1':
     dependencies:
       chalk: 4.1.2
       ejs: 3.1.10
       ember-cli-string-utils: 1.1.0
-      lodash: 4.17.23
+      lodash: 4.18.1
       sort-package-json: 3.6.0
       walk-sync: 3.0.0
 
@@ -9167,8 +9164,6 @@ snapshots:
   lodash.values@4.3.0: {}
 
   lodash@4.17.21: {}
-
-  lodash@4.17.23: {}
 
   lodash@4.18.1: {}
 
