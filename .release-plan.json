@@ -2,42 +2,28 @@
   "solution": {
     "ember-cli": {
       "impact": "minor",
-      "oldVersion": "7.1.0-alpha.0",
-      "newVersion": "7.1.0-alpha.1",
+      "oldVersion": "7.1.0-alpha.1",
+      "newVersion": "7.1.0-alpha.2",
       "tagName": "alpha",
       "constraints": [
         {
-          "impact": "minor",
-          "reason": "Appears in changelog section :rocket: Enhancement"
-        },
-        {
-          "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @ember-tooling/classic-build-addon-blueprint"
-        },
-        {
           "impact": "patch",
           "reason": "Has dependency `workspace:*` on @ember-tooling/classic-build-app-blueprint"
+        },
+        {
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
         }
       ],
       "pkgJSONPath": "./package.json"
     },
     "@ember-tooling/classic-build-addon-blueprint": {
-      "impact": "minor",
-      "oldVersion": "7.1.0-alpha.0",
-      "newVersion": "7.1.0-alpha.1",
-      "tagName": "alpha",
-      "constraints": [
-        {
-          "impact": "minor",
-          "reason": "Appears in changelog section :rocket: Enhancement"
-        }
-      ],
-      "pkgJSONPath": "./packages/addon-blueprint/package.json"
+      "oldVersion": "7.1.0-alpha.1"
     },
     "@ember-tooling/classic-build-app-blueprint": {
       "impact": "minor",
-      "oldVersion": "7.1.0-alpha.0",
-      "newVersion": "7.1.0-alpha.1",
+      "oldVersion": "7.1.0-alpha.1",
+      "newVersion": "7.1.0-alpha.2",
       "tagName": "alpha",
       "constraints": [
         {
@@ -54,5 +40,5 @@
       "oldVersion": "0.6.2"
     }
   },
-  "description": "## Release (2026-04-24)\n\n* ember-cli 7.1.0-alpha.1 (minor)\n* @ember-tooling/classic-build-addon-blueprint 7.1.0-alpha.1 (minor)\n* @ember-tooling/classic-build-app-blueprint 7.1.0-alpha.1 (minor)\n\n#### :rocket: Enhancement\n* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`\n  * [#11001](https://github.com/ember-cli/ember-cli/pull/11001) Prepare 7.1 Alpha ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
+  "description": "## Release (2026-04-26)\n\n* ember-cli 7.1.0-alpha.2 (minor)\n* @ember-tooling/classic-build-app-blueprint 7.1.0-alpha.2 (minor)\n\n#### :rocket: Enhancement\n* `@ember-tooling/classic-build-app-blueprint`, `ember-cli`\n  * [#11006](https://github.com/ember-cli/ember-cli/pull/11006) update ember-welcome-page to v8 in app blueprint ([@mansona](https://github.com/mansona))\n  * [#11005](https://github.com/ember-cli/ember-cli/pull/11005) update ember-cli-deprecation-workflow to v4 ([@mansona](https://github.com/mansona))\n  * [#11003](https://github.com/ember-cli/ember-cli/pull/11003) update @ember/optional-features to v3 ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
 }
