@@ -1,5 +1,19 @@
 # ember-cli Changelog
 
+## Release (2026-04-26)
+
+* ember-cli 7.1.0-alpha.2 (minor)
+* @ember-tooling/classic-build-app-blueprint 7.1.0-alpha.2 (minor)
+
+#### :rocket: Enhancement
+* `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
+  * [#11006](https://github.com/ember-cli/ember-cli/pull/11006) update ember-welcome-page to v8 in app blueprint ([@mansona](https://github.com/mansona))
+  * [#11005](https://github.com/ember-cli/ember-cli/pull/11005) update ember-cli-deprecation-workflow to v4 ([@mansona](https://github.com/mansona))
+  * [#11003](https://github.com/ember-cli/ember-cli/pull/11003) update @ember/optional-features to v3 ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
 ## Release (2026-04-24)
 
 * ember-cli 7.1.0-alpha.1 (minor)
