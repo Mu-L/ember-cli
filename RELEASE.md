@@ -165,13 +165,13 @@ In the `update-blueprint-deps` steps described above we updated all packages tha
 Once the Alpha release has been completed we should run the following command to see if there are any releases that have out-of-range updates available:
 
 ```
-pnpm dlx update-blueprint-deps --filter '.*' ./package.json ./packages/*-blueprint/**/*ackage.json ./tests/fixtures/*/package.json ./tests/fixtures/*/*/package.json
+pnpm dlx update-blueprint-deps --filter '.*' --tag latest ./package.json ./packages/*-blueprint/**/*ackage.json ./tests/fixtures/*/package.json ./tests/fixtures/*/*/package.json
 ```
 
 This is not intended to be committed and opened as a single PR, it is for illustrative purposes only. If your git diff shows that there are any packages that need to have the range updated (i.e. we have a `^` dependency defined but there is a new major release available) then you should run the same command to update that package with a filter on the package name e.g.
 
 ```
-pnpm dlx update-blueprint-deps --filter 'babel-remove-types' ./package.json ./packages/*-blueprint/**/*ackage.json ./tests/fixtures/*/package.json ./tests/fixtures/*/*/package.json
+pnpm dlx update-blueprint-deps --filter 'babel-remove-types' --tag latest ./package.json ./packages/*-blueprint/**/*ackage.json ./tests/fixtures/*/package.json ./tests/fixtures/*/*/package.json
 ```
 
 ## Changelog updates
